@@ -70,7 +70,7 @@ $x^{(i)}_j$ 第 $i$ 个训练样本中第 $j$ 个特征量的值。
 
 回归问题的输出是连续型变量，是一种定量输出（预测明天的气温是多少度）。
 
-![image](/pic/MachineLearning/回归学习.png)
+![](/pic/MachineLearning/回归学习.png)
 
 此图中的问题便是监督学习中的回归问题，通过给定英尺与价格的数据集对房价进行预测（给定英尺预测多少钱）。
 
@@ -78,7 +78,7 @@ $x^{(i)}_j$ 第 $i$ 个训练样本中第 $j$ 个特征量的值。
 
 分类问题的输出是离散型变量（如+1、-1），是一种定性输出（预测明天是）。
 
-![image](/pic/MachineLearning/分类学习.png)
+![](/pic/MachineLearning/分类学习.png)
 
 此图中的问题便是监督学习中的分类问题，通过给定肿瘤尺寸与是否为恶性肿瘤相对应的数据集，对肿瘤进行预测（给定尺寸的肿瘤为恶性还是良性）
 
@@ -100,15 +100,15 @@ $x^{(i)}_j$ 第 $i$ 个训练样本中第 $j$ 个特征量的值。
 
 一个聚类算法典型的应用就是谷歌新闻：
 
-![image](/pic/MachineLearning/谷歌新闻（聚类应用）.png)
+![](/pic/MachineLearning/谷歌新闻（聚类应用）.png)
 
-![image](/pic/MachineLearning/谷歌新闻2.png)
+![](/pic/MachineLearning/谷歌新闻2.png)
 
 谷歌新闻每天自动检索数以万计的新闻，并自动将他们聚合成一个个专题，每个专题由不同网站（大概率）的同类新闻组成。
 
 ##### 鸡尾酒会算法
 
-![image](/pic/MachineLearning/鸡尾酒会算法.png)
+![](/pic/MachineLearning/鸡尾酒会算法.png)
 
 有这样一个场景，有一场两个人的鸡尾酒会，两个人在同时说话。同时有两个位置不同的麦克风，那么两个麦克风中所录的音频就会不同（距离不同音量不同），通过鸡尾酒会算法可以将通过两个音频，将两个人的声音分别提取出来，并去除其他杂音。
 
@@ -122,7 +122,7 @@ $x^{(i)}_j$ 第 $i$ 个训练样本中第 $j$ 个特征量的值。
 
 ### 1、监督学习算法的工作原理
 
-![image](/pic/MachineLearning/单变量线性回归模型.png)
+![](/pic/MachineLearning/单变量线性回归模型.png)
 
 首先，我们向学习算法提供训练集（比如我们的房价训练集），学习算法的任务是输出一个==函数h（假设函数）==，假设函数（hypothesis）的作用是把房子的大小作为输入变量把它作为x的值，而它会试着输出相应房子的预测y值，==h是一个引导从x得到y的函数==。接下来要决定怎么表示这个假设函数h。假设图中的假设函数表示为：
 
@@ -140,11 +140,11 @@ $x^{(i)}_j$ 第 $i$ 个训练样本中第 $j$ 个特征量的值。
 
 ### 2、代价函数
 
-![image](/pic/MachineLearning/模型参数.png)
+![](/pic/MachineLearning/模型参数.png)
 
-![image](/pic/MachineLearning/模型参数_2.png)
+![](/pic/MachineLearning/模型参数_2.png)
 
-![image](/pic/MachineLearning/模型参数_3.png)
+![](/pic/MachineLearning/模型参数_3.png)
 
 假设有一个数据集表示房屋的面积与房价（如图3所示），若模型是一个单变量线性回归模型，表示为：
 
@@ -170,15 +170,15 @@ $x^{(i)}_j$ 第 $i$ 个训练样本中第 $j$ 个特征量的值。
 
 
 
-![image](/pic/MachineLearning/代价函数.png)
+![](/pic/MachineLearning/代价函数.png)
 
 假设使 $\theta_0=0$  来简化假设函数 $h_{\theta}(x)$ ，那么它的代价函数 $J(\theta_0,\theta_1)$ 如右边所示，是一个碗状。而若 $\theta_0!=0 $ ，那么它的代价函数 $J(\theta_0,\theta_1)$ 也是一个碗状，如下图所示：
 
-![image](/pic/MachineLearning/代价函数_2.png)
+![](/pic/MachineLearning/代价函数_2.png)
 
 通常为了方便也使用等高线图来表示：
 
-![image](/pic/MachineLearning/代价函数_3.png)
+![](/pic/MachineLearning/代价函数_3.png)
 
 
 
@@ -188,7 +188,7 @@ $x^{(i)}_j$ 第 $i$ 个训练样本中第 $j$ 个特征量的值。
 
 以下便是梯度下降的应用场景：
 
-![image](/pic/MachineLearning/梯度下降.png)
+![](/pic/MachineLearning/梯度下降.png)
 
 有这样一个函数 $J(\theta_0,\theta_1)$ （泛指的函数，不一定非要是代价函数），想要求得函数 $J(\theta_0,\theta_1)$ 的最小值。
 
@@ -196,15 +196,15 @@ $x^{(i)}_j$ 第 $i$ 个训练样本中第 $j$ 个特征量的值。
 
 下面表示梯度下降的过程：
 
-![image](/pic/MachineLearning/梯度下降_2.png)
+![](/pic/MachineLearning/梯度下降_2.png)
 
-![image](/pic/MachineLearning/梯度下降_3.png)
+![](/pic/MachineLearning/梯度下降_3.png)
 
 如图所示，梯度下降有这样的一个特点，一开始选取不同的初始值，可能最后收敛于不同的局部最小值。
 
 
 
-![image](/pic/MachineLearning/梯度下降_4.png)
+![](/pic/MachineLearning/梯度下降_4.png)
 
 梯度下降的具体算法如图所示：
 
@@ -220,19 +220,19 @@ $x^{(i)}_j$ 第 $i$ 个训练样本中第 $j$ 个特征量的值。
 
 假设 $\theta_0 = 0$ ，那么代价函数 $J$ 的函数如下图所示： 
 
-![image](/pic/MachineLearning/梯度下降_5.png)
+![](/pic/MachineLearning/梯度下降_5.png)
 
 那么偏导项就变成了 $\frac{\partial}{\partial\theta_1}J(\theta_1)$ ，而偏导项其实就是函数在 $\theta_1$ 那一点的斜率，假设 $\theta_1$ 这一点在最低点的右边，那么导数的值是一个正数，也就是一个正斜率，那么根据公式 $\theta_1:=\theta_j-\alpha\frac{\partial}{\partial\theta_1}J(\theta_1)$ ，$\theta_1$ 会向左移动，正是最低点的方向。同理若是在最低点的左边，那么偏导项是一个负数，也就是一个负斜率，那么根据公式 $\theta_1$ 会向右移动，也正是最低点的方向。
 
-![image](/pic/MachineLearning/梯度下降_6.png)
+![](/pic/MachineLearning/梯度下降_6.png)
 
 而 $\alpha$ 的作用就是控制每次下降的幅度，若 $\alpha$ 数值过小，那么下降的速度欧就会很慢。而若 $\alpha$ 的数值过大，那么最坏的情况就是可能会无法收敛甚至发散。
 
-![image](/pic/MachineLearning/梯度下降_7.png)
+![](/pic/MachineLearning/梯度下降_7.png)
 
 而若到了最低点，因为最低点的导数为 0 ，所以 $\theta_1 = \theta_1-\alpha0 = 0$ ，也就是不会变化。 
 
-![image](/pic/MachineLearning/梯度下降_8.png)
+![](/pic/MachineLearning/梯度下降_8.png)
 
 随着梯度的下降，斜率不断减小，下降的速度也会不断减小。
 
@@ -240,15 +240,15 @@ $x^{(i)}_j$ 第 $i$ 个训练样本中第 $j$ 个特征量的值。
 
 下面将梯度下降应用到之前所学的线性回归模型中的代价函数中：
 
-![image](/pic/MachineLearning/梯度下降_9.png)
+![](/pic/MachineLearning/梯度下降_9.png)
 
 那么重点要求的就是偏导项，学过高数就可以轻松推出下图求导后的公式：
 
-![image](/pic/MachineLearning/梯度下降_10.png)
+![](/pic/MachineLearning/梯度下降_10.png)
 
 
 
-![image](/pic/MachineLearning/梯度下降_11.png)
+![](/pic/MachineLearning/梯度下降_11.png)
 
 本节讲的梯度下降算法因为每一步都使用了所有的数据集，所以又称为 Batch梯度下降算法。
 
@@ -258,7 +258,7 @@ $x^{(i)}_j$ 第 $i$ 个训练样本中第 $j$ 个特征量的值。
 
 ### 1、矩阵和向量
 
-![image](/pic/MachineLearning/矩阵定义.png)
+![](/pic/MachineLearning/矩阵定义.png)
 
 矩阵是指由数字组成的矩形阵列，并写在方括号内。
 
@@ -272,7 +272,7 @@ $x^{(i)}_j$ 第 $i$ 个训练样本中第 $j$ 个特征量的值。
 
 
 
-![image](/pic/MachineLearning/向量定义.png)
+![](/pic/MachineLearning/向量定义.png)
 
 向量是指列数为1的矩阵。
 
@@ -290,11 +290,11 @@ $y_1$ 表示向量 y 中的第一个元素。
 
 ### 2、加法和标量乘法
 
-![image](/pic/MachineLearning/矩阵的加法.png)
+![](/pic/MachineLearning/矩阵的加法.png)
 
 两矩阵相加就是两矩阵对应位置的元素相加，因此，只有维度相同的两矩阵可以相加，维度不同的矩阵相加没有意义。
 
-![image](/pic/MachineLearning/矩阵标量乘法.png)
+![](/pic/MachineLearning/矩阵标量乘法.png)
 
 标量乘法中标量是一个复杂的结构，可能是一个数或者实数。标量乘法就是用这个标量乘矩阵中的每个元素。
 
@@ -304,9 +304,9 @@ $y_1$ 表示向量 y 中的第一个元素。
 
 矩阵和向量相乘：
 
-![image](/pic/MachineLearning/矩阵和向量相乘.png)
+![](/pic/MachineLearning/矩阵和向量相乘.png)
 
-![image](/pic/MachineLearning/矩阵向量相乘的应用.png)
+![](/pic/MachineLearning/矩阵向量相乘的应用.png)
 
 在实际应用中，可以如上图这样使用。
 
@@ -314,11 +314,11 @@ $y_1$ 表示向量 y 中的第一个元素。
 
 ### 4、矩阵乘法
 
-![image](/pic/MachineLearning/矩阵相乘.png)
+![](/pic/MachineLearning/矩阵相乘.png)
 
 假设有一个数据集，三个假设函数，那么计算预测值可以如下图列矩阵：
 
-![image](/pic/MachineLearning/矩阵乘法_2.png)
+![](/pic/MachineLearning/矩阵乘法_2.png)
 
 ### 5、矩阵乘法的特性
 
@@ -356,7 +356,7 @@ $y_1$ 表示向量 y 中的第一个元素。
 
 ### 1、多功能
 
-![image](/pic/MachineLearning/单变量线性回归模型假设函数.png)
+![](/pic/MachineLearning/单变量线性回归模型假设函数.png)
 
 若只有一个变量那我们的假设函数是这样的。
 
@@ -384,29 +384,29 @@ $y_1$ 表示向量 y 中的第一个元素。
 
 多变量线性回归模型的代价函数定义如下：
 
-![image](/pic/MachineLearning/多变量线性回归模型代价函数定义.png)
+![](/pic/MachineLearning/多变量线性回归模型代价函数定义.png)
 
 和单变量梯度下降法类似，多变量梯度下降法的具体过程如下：
 
-![image](/pic/MachineLearning/多变量梯度下降法过程.png)
+![](/pic/MachineLearning/多变量梯度下降法过程.png)
 
 （记得为同步更新）
 
 #### 2.2特征缩放
 
-![image](/pic/MachineLearning/多变量梯度下降之特征缩放.png)
+![](/pic/MachineLearning/多变量梯度下降之特征缩放.png)
 
 特征缩放就是让多个特征值在近似的范围之内，进行梯度下降。
 
 以上图左边两个特征值为例， $x_1$ 的范围是 $0-2000$ ， $x_2$ 的范围是 $1-5$ ，那么不考虑 $\theta_0$ ，代价函数的等高线图如上图左边所示，因为 $x_1,x_2$ 的范围差距极大，所以是一个狭长的椭圆形，那么梯度下降的过程如红线所示，就会左右来回震荡，下降速度缓慢。所以为提高下降速度，将 $x_1$ 的数值除以2000， $x_2$ 的数值除以5，那么等高线图如右图所示，是一个正圆，梯度下降的速度也就较左边快得多。
 
-![image](/pic/MachineLearning/多变量梯度下降之特征缩放特征值范围.png)
+![](/pic/MachineLearning/多变量梯度下降之特征缩放特征值范围.png)
 
 把特征值缩放到 -1到1的范围就可以了，不过要求并不十分严格，只要近似就好了，以老师的经验，最大-3到3都是OK的，最小 $-\frac{1}{3} $ 到 $\frac{1}{3}$ 就可以。
 
 除了将特征值除以最大值之外，在特征缩放中有时也会进行一项称为均值归一化的工作。
 
-![image](/pic/MachineLearning/多变量梯度下降之均值归一化.png)
+![](/pic/MachineLearning/多变量梯度下降之均值归一化.png)
 
 均值归一化就是将特征值 $x_i$ 替换为 $x_i-\mu_i$ ，使你的特征值具有为0的平均值。
 
@@ -420,7 +420,7 @@ $y_1$ 表示向量 y 中的第一个元素。
 
 #### 2.3学习率
 
-![image](/pic/MachineLearning/多变量梯度下降之判断收敛.png)
+![](/pic/MachineLearning/多变量梯度下降之判断收敛.png)
 
 对于一个多变量的梯度下降算法，我们如何判断结果是否已经收敛呢？
 
@@ -434,7 +434,7 @@ $y_1$ 表示向量 y 中的第一个元素。
 
 
 
-![image](/pic/MachineLearning/多变量梯度下降之α大小.png)
+![](/pic/MachineLearning/多变量梯度下降之α大小.png)
 
 通过画出代价函数的下降曲线可以很方便的看出代价函数是否在正确运行。
 
@@ -444,7 +444,7 @@ $y_1$ 表示向量 y 中的第一个元素。
 
 ==对于一个足够小的 $\alpha$ 值，在所有的迭代中代价函数的值都会下降。不过如果 $\alpha$ 的值过小，代价函数收敛就会很慢。==
 
-![image](/pic/MachineLearning/多变量梯度下降之学习率选取.png)
+![](/pic/MachineLearning/多变量梯度下降之学习率选取.png)
 
 总结一下：
 
@@ -462,13 +462,13 @@ $y_1$ 表示向量 y 中的第一个元素。
 
 以预测房价为例：
 
-![image](/pic/MachineLearning/多变量线性回归模型之选择特征.png)
+![](/pic/MachineLearning/多变量线性回归模型之选择特征.png)
 
 上图的例子给了我们临街宽度 $x_1$ 和纵向深度 $x_2$ 两个特征，但我们很直观的可以知道，和房价更相关的是房屋面积，所以我们可以只用两者的乘积，即房屋面积这一个特征。有时可以通过定义一个新特征，可以得到一个更好的模型。
 
 与选择特征密切相关的一个概念，被称为多项式回归。
 
-![image](/pic/MachineLearning/多变量之多项式模型.png)
+![](/pic/MachineLearning/多变量之多项式模型.png)
 
 比如有如图所示的房价数据集，通过观察数据集你觉得直线并不能很好的拟合数据，因此你很容易就会想到二次模型，但你很快会觉得二次模型不合理，因为二次函数会降下来，但随着房屋面积的增大，房屋的价格并不会降下来。所以可能我们会选择不同的多项式模型，并转而选择一个三次函数。我们用这个三次函数的式子可以得到这样的模型（绿色），这个模型和数据集拟合的更好，因为最终不会下降。
 
@@ -478,7 +478,7 @@ $y_1$ 表示向量 y 中的第一个元素。
 
 因为这个模型是一个三次模型，所以特征缩放就非常重要。
 
-![image](/pic/MachineLearning/特征选择.png)
+![](/pic/MachineLearning/特征选择.png)
 
 事实上我们有很大的余地来选择使用哪些特征，如上图我们可以平方根函数来进行拟合。
 
@@ -486,11 +486,11 @@ $y_1$ 表示向量 y 中的第一个元素。
 
 正规方程对于某些线性回归问题，可以提供更好的方法来求得参数 $\theta$ 的最优值。
 
-![image](/pic/MachineLearning/正规方程与梯度下降比较.png)
+![](/pic/MachineLearning/正规方程与梯度下降比较.png)
 
 与梯度下降这种一步一步迭代求出 $\theta$ 最优值的解法不同，正规方程提供了一种可以一步直接求出 $\theta$ 最优值的解析法。
 
-![image](/pic/MachineLearning/正规方程过程.png)
+![](/pic/MachineLearning/正规方程过程.png)
 
 以最简单的一种情况为例：
 
@@ -500,7 +500,7 @@ $y_1$ 表示向量 y 中的第一个元素。
 
 同理，推广到多个特征 $\theta$ 的情况，只要对 $J(\theta)$ 的各个 $\theta$ 求偏导，并使各个偏导等于0，求出该条件下各 $\theta$ 的取值就可以了。
 
-![image](/pic/MachineLearning/正规方程过程2.png)
+![](/pic/MachineLearning/正规方程过程2.png)
 
  其中，将各样本和价格用矩阵表示如上图所示。
 
@@ -524,7 +524,7 @@ $y_1$ 表示向量 y 中的第一个元素。
 
 ![ ](picture\正规方程过程3.png)
 
-![image](/pic/MachineLearning/正规方程与梯度下降使用范围.png)
+![](/pic/MachineLearning/正规方程与梯度下降使用范围.png)
 
 比较下梯度下降和正规方程这两种算法：
 
@@ -556,7 +556,7 @@ $y_1$ 表示向量 y 中的第一个元素。
 
 对于 $\theta=(X^TX)^{-1}X^TY$ ，很容易会考虑到一个问题，就是如果 $(X^TX)^{-1}$ 不可逆怎么办。事实上这个发生的情况很少，不过还是需要讨论一下的。
 
-![image](/pic/MachineLearning/正规方程不可逆情况.png)
+![](/pic/MachineLearning/正规方程不可逆情况.png)
 
  $(X^TX)^{-1}$ 不可逆的情况一般要考虑下面两个问题：
 
