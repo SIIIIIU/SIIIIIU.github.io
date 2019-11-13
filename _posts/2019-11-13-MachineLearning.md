@@ -6,7 +6,7 @@ article_header:
   type: overlay
   
 
-
+typora-root-url: ../pic/MachineLearning
 ---
 
 
