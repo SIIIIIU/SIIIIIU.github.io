@@ -6,7 +6,7 @@ article_header:
   type: overlay
   
 
-typora-root-url: ../pic/MachineLearning
+typora-root-url: ../pic
 ---
 
 
@@ -72,7 +72,7 @@ $x^{(i)}_j$ 第 $i$ 个训练样本中第 $j$ 个特征量的值。
 
 回归问题的输出是连续型变量，是一种定量输出（预测明天的气温是多少度）。
 
-![image](/picture/回归学习.png)
+![image](/MachineLearning/picture/回归学习.png)
 
 此图中的问题便是监督学习中的回归问题，通过给定英尺与价格的数据集对房价进行预测（给定英尺预测多少钱）。
 
