@@ -1,11 +1,10 @@
 ---
 layout: article
 title: 机器学习
-tags: Machine Learning
+tags: Machine-Learning
 article_header:
   type: overlay
-  background_image:
-    src: /pic/lock.jpg
+  
 
 
 ---
