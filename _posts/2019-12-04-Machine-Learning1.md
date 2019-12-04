@@ -1,7 +1,7 @@
 ---
 layout: article
 title: 初识机器学习
-tags:机器学习
+tags:Machine-Learning
 article_header:
   type: overlay
 typora-root-url: ..
