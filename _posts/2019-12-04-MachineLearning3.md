@@ -1,6 +1,6 @@
 ---
 layout: article
-title: 线性代数回顾
+title: 吴恩达机器学习之线性代数回顾
 tags: Machine-Learning
 article_header:
   type: overlay

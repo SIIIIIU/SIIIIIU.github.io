@@ -1,6 +1,6 @@
 ---
 layout: article
-title: 神经网络参数的反向传播算法
+title: 吴恩达机器学习之神经网络参数的反向传播算法
 tags: Machine-Learning
 article_header:
   type: overlay

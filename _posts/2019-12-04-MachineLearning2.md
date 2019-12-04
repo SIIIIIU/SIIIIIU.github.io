@@ -1,6 +1,6 @@
 ---
 layout: article
-title: 单变量线性回归
+title: 吴恩达机器学习之单变量线性回归
 tags: Machine-Learning
 article_header:
   type: overlay
@@ -162,30 +162,6 @@ typora-root-url: ..
 ![](/pic/MachineLearning/梯度下降_11.png)
 
 本节讲的梯度下降算法因为每一步都使用了所有的数据集，所以又称为 Batch梯度下降算法。
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-​	
-
-
-
-
 
 
 

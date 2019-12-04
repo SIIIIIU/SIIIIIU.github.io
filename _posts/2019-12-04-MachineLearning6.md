@@ -1,6 +1,6 @@
 ---
 layout: article
-title: 正则化
+title: 吴恩达机器学习之正则化
 tags: Machine-Learning
 article_header:
   type: overlay
